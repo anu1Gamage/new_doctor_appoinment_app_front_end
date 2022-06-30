@@ -1,0 +1,87 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(../../../assets/Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    display: flex;
+
+}
+.login-text{
+    color: #fff;
+    float: right;
+    margin-top: -180px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-content-row{
+    color: #000000;
+    padding-top: 110px;
+    align-self: center;
+    vertical-align: middle;
+}
+.banner-content-row .topic{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3f80db;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.banner-content-row h1{
+  font-size: 64px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  font-family: 'Poppins';
+}
+.description{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+button {
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }
+.btn-login{
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #3f80db;
+    border: #207dff;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding: 5px;
+}
+.btn-register{
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: solid 1px #207dff;
+    color: #3f80db;
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding: 5px;
+    margin-left: 5px;
+}
+.btn-login :hover{
+    background-color:#fff;
+    
+}
